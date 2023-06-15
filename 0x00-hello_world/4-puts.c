@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - prints out a string via puts with new line 
+* main - prints out a string via puts with new line
+* Return: int 0 when done and no errors 
 */
 
 int main(void)
