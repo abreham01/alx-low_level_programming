@@ -16,7 +16,7 @@ int main(void)
 			if (num2 > num1)
 			{
 				for (num3 = 48; num3 <= 57; num3++)
-				{	
+				{
 					if (num3 > num2)
 					{
 						putchar(num1);
