@@ -7,20 +7,19 @@ void jack_bauer(void)
 {
 	int count = 0;
 	int hour1 = 0;
-	int hour2;
+	int hour2 = 0;
 	int minute1;
 	int minute2;
 
 	while (count < 1440)
 	{
-		hour2 = 0;
 		while (hour2 < 10)
 		{
 			minute1 = 0;
 			while (minute1 < 6)
 			{
 				minute2 = 0;
-				while (minute2 < 10 )
+				while (minute2 < 10)
 				{
 					_putchar(hour1 + '0');
 					_putchar(hour2 + '0');
