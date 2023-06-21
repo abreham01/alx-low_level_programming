@@ -21,10 +21,10 @@ void jack_bauer(void)
 			_putchar(':');
 
 			if (minute < 10)
-                        {
-                                _putchar('0');
-                        }
-			_putchar(minute + '0');
+			{
+			       	_putchar('0');
+			}
+			_putchar(minute);
 			_putchar('\n');
 			minute++;
 		}
