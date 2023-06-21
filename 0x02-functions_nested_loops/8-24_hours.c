@@ -10,7 +10,7 @@ void jack_bauer(void)
 
 	while (hour < 23)
 	{
-		for (minute < 60)
+		while (minute < 60)
 		{
 			if (hour < 10)
 			{
