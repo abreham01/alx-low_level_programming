@@ -5,12 +5,12 @@
  */
 void jack_bauer(void)
 {
-	int hour;
-	int minute;
+	int hour = 0;
+	int minute = 0;
 
-	for (hour = 0; hour < 23; hour++)
+	while (hour < 23)
 	{
-		for (minute = 0; minute < 60; minute++)
+		for (minute < 60)
 		{
 			if (hour < 10)
 			{
@@ -26,11 +26,10 @@ void jack_bauer(void)
                         }
 			_putchar(hour + '0');
 			_putchar('\n');
-			if (minute == 59)
-			{
-				minute = 0;
-			}
+			minute++;
 		}
+		hour++;
+		minute = 0;
 
 	}
 }
