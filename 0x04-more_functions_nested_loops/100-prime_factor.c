@@ -9,19 +9,19 @@
 
 int main(void)
 {
-	unsigned long i = 2;
+	unsigned long i;
 	unsigned long biggest = 0;
 	unsigned long number = 612852475143;
 
-	while (number > i)
+	for (i = 2; i < number; i++)
 	{
-		while (number % i == 0)
+		if (number % i == 0)
 		{
 			if (i > biggest)
+			{
 				biggest = i;
-			number = number / i;
+			}
 		}
-		i++;
 	}
 	printf("%lu\n", biggest);
 	return (0);
