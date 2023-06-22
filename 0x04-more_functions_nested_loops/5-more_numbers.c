@@ -2,7 +2,7 @@
 
 /**
 * more_numbers - prints 10 lines of 1-14
-* 
+*
 * Return: void. no return.
 */
 
