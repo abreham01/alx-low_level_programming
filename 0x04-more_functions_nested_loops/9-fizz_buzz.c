@@ -10,13 +10,9 @@ int main(void)
 {
 	int num;
 
-	for (num = 0; num <= 100; num++)
+	for (num = 1; num <= 100; num++)
 	{
-		if (num == 0)
-		{
-			printf("%i", num);
-		}
-		else if (num % 3 == 0 && num % 5 == 0)
+		if (num % 3 == 0 && num % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
@@ -32,7 +28,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", num);
+			printf("%d", num);
 		}
 
 		if (num != 100)
