@@ -13,13 +13,13 @@ int main(void)
 	unsigned long biggest = 0;
 	unsigned long number = 612852475143;
 
-	for (i = 3; i < number; i++)
+	for (i = 3; i < 782849; i+=2)
 	{
-		if (number % i == 0)
+		while ((number % i == 0) && (number != i))
 		{
-			biggest = i;
+			number = number / i;
 		}
 	}
-	printf("%lu\n", biggest);
+	printf("%lu\n", number);
 	return (0);
 }
