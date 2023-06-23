@@ -2,15 +2,15 @@
 
 /**
  * print_number - prints integer number
- *
+ * @n: type int
  * Return: 0
  */
 
 void print_number(int n)
 {
 	unsigned int i = n;
-	
-	if (i < 0)
+
+	if (n < 0)
 	{
 		_putchar(45);
 		i = -i;
