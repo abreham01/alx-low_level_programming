@@ -9,11 +9,10 @@
 
 int main(void)
 {
-	unsigned long i;
-	unsigned long biggest = 0;
-	unsigned long number = 612852475143;
+	unsigned long int i;
+	unsigned long int number = 612852475143;
 
-	for (i = 3; i < 782849; i+=2)
+	for (i = 3; i < 782849; i += 2)
 	{
 		while ((number % i == 0) && (number != i))
 		{
