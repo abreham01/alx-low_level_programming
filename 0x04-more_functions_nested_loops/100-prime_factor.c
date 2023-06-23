@@ -13,14 +13,11 @@ int main(void)
 	unsigned long biggest = 0;
 	unsigned long number = 612852475143;
 
-	for (i = 2; i < number; i++)
+	for (i = 3; i < number; i++)
 	{
 		if (number % i == 0)
 		{
-			if (i > biggest)
-			{
-				biggest = i;
-			}
+			biggest = i;
 		}
 	}
 	printf("%lu\n", biggest);
