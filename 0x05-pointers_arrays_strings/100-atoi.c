@@ -3,6 +3,8 @@
 /**
 * _atoi - convers a string to an int
 * @s: a pointer od string to be converted to int
+*
+* Return: return 0 or int value
 */
 
 int _atoi(char *s)
