@@ -18,7 +18,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest[i] = src[i];
 	}
 
-	while (a < n)
+	while (i < n)
 	{
 		dest[i] = '\0';
 		i++;
