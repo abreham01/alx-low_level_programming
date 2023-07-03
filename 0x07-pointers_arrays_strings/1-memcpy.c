@@ -3,7 +3,7 @@
 /**
  * _memcpy - copies memory
  * @dest: char
- * @src: char 
+ * @src: char
  * @n: unsigned int
  *
  * Return: 0 is success
