@@ -19,7 +19,7 @@ void print_diagsums(int *a, int size)
 	{
 		diagonal1 = diagonal1 + a[(size + 1) * s];
 	}
-	
+
 	for (s = 1; s < size + 1; s++)
 	{
 		diagonal2 = diagonal2 + a[(size - 1) * s];
