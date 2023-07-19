@@ -63,7 +63,7 @@ int op_div(int a, int b)
 /**
  * op_mod - calculate remainder
  * @a: number to be divided
- * @b: dividing number 
+ * @b: dividing number
  *
  * Return: remainder
  */
