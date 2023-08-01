@@ -3,7 +3,6 @@
 
 /**
  * print_listint - Print elements in listint.
- *
  * @h: Pointer to a listint
  *
  * Return: number of elemets printed.
