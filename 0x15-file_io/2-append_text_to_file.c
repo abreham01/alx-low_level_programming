@@ -1,5 +1,4 @@
 #include "main.h"
-#include "holberton.h"
 
 /**
  * append_text_to_file - Appends text at the end of a file.
